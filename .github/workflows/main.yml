@@ -30,7 +30,7 @@ jobs:
       run: echo Deploy HMG
       
     deploy-prd:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-lates
     environment:
       name: prd
       url: 'jtech.com'
