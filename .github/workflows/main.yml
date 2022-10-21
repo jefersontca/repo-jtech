@@ -29,12 +29,4 @@ jobs:
     - name: run a one-line script
       run: echo Deploy HMG
       
-    deploy-prd:
-    runs-on: ubuntu-lates
-    environment:
-      name: prd
-      url: 'jtech.com'
-    needs: deploy-hmg
-    steps:
-    - name: run a one-line script
-      run: echo Deploy PRD
+  
