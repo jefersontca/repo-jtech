@@ -1,0 +1,9 @@
+  TESTESTESTTESETSETSETWESTSETSE deploy-hmg:
+    runs-on: ubuntu-latest
+    environment:
+      name: hmg
+      url: 'jtech.com'
+    needs: deploy-dev 
+    steps:
+    - name: run a one-line script
+      run: echo Deploy HMG
