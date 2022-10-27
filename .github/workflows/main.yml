@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: run a one-line script
-      run: echo Hello, World...
+      run: echo Brasil acima de tudo, Deus acima de todos
       
   deploy-dev:
     runs-on: ubuntu-latest
